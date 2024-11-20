@@ -37,8 +37,7 @@ public class Lv1 {
                         result = num1 / num2; // 첫 번째 숫자를 두 번째 숫자로 나눔.
                         System.out.println("결과: " + result); // 결과 출력.
                     } else {
-                        System.out.println("오류: 0으로 나눌 수 없습니다!");
-                        // 0으로 나누는 경우 오류 메시지 출력.
+                        System.out.println("오류: 0으로 나눌 수 없습니다!");  // 0으로 나누는 경우 오류 메시지 출력.
                     }
                     break;
                 default: // 유효하지 않은 연산자를 입력한 경우
@@ -51,7 +50,6 @@ public class Lv1 {
 
         } while (!choice.equals("종료")); // 사용자가 'Exit'를 입력하지 않은 경우 반복. -> 앞에 대문자만 가능.... -> 종료 로 변경
 
-        // 프로그램 종료 메시지
-        System.out.println("계산기를 종료합니다.");
+        System.out.println("계산기를 종료합니다."); // 프로그램 종료 메시지
     }
 }
